@@ -1,0 +1,20 @@
+name: lerobot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - python-sounddevice
+  - pydantic
+  - aiofiles
+  - python-dotenv
+  - httpx
+  - pytest
+  - pytest-asyncio
+  - black
+  - isort
+  - ruff
+  - pre-commit
+  - pip:
+    - openwakeword 
